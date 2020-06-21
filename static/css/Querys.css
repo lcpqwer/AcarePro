@@ -1,0 +1,12 @@
+.Q-question, .Q-answer {
+	line-height: 50upx;font-size: 30upx;
+}
+.Q-title,.Q-content {
+	vertical-align: top;display: inline-block;
+}
+.Q-title {
+	width: 100upx;text-indent: 20upx;
+}
+.Q-content {
+	width: 650upx;
+}

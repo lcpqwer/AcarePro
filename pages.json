@@ -1,0 +1,215 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/Login_one/Login_one",
+			"style" : {
+				"navigationBarTitleText": "选择保险公司"
+			}
+		}
+		,{
+            "path" : "pages/Login/Login",
+            "style" : {
+				"navigationBarTitleText": "登录信息"
+			}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText": "主 页"
+			}
+        }
+        ,{
+            "path" : "pages/WashCar/WashCar",
+            "style" : {
+				"navigationBarTitleText": "洗 车"
+			}
+        }
+        ,{
+            "path" : "pages/Appointment_one/Appointment_one",
+            "style" : {
+				"navigationBarTitleText": "代 驾"
+			}
+        }
+        ,{
+            "path" : "pages/Appointment_two/Appointment_two",
+            "style" : {
+				"navigationBarTitleText": "境内机场接送"
+			}
+        }
+        ,{
+            "path" : "pages/Appointment_three/Appointment_three",
+            "style" : {
+				"navigationBarTitleText": "境内高铁站接送"
+			}
+        },
+		{
+		    "path" : "pages/Appointment_four/Appointment_four",
+		    "style" : {
+				"navigationBarTitleText": "机场/高铁贵宾厅"
+			}
+		},
+		{
+		    "path" : "pages/Appointment_five/Appointment_five",
+		    "style" : {
+				"navigationBarTitleText": "机场附近停车"
+			}
+		},
+		{
+		    "path" : "pages/Appointment_six/Appointment_six",
+		    "style" : {
+				"navigationBarTitleText": "代办年检"
+			}
+		},
+		{
+			"path":"pages/Spray/Spray",
+			"style":{
+				"navigationBarTitleText": "喷 漆"
+			}
+		},
+		{
+			"path":"pages/UpKeep/UpKeep",
+			"style":{
+				"navigationBarTitleText": "保 养"
+			}
+		}
+        ,{
+            "path" : "pages/OrderList/OrderList",
+            "style" : {
+				"navigationBarTitleText": "订单记录"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail4/OrderDetail4",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/MyEquity/MyEquity",
+            "style" : {
+				"navigationBarTitleText": "权 益"
+			}
+        }
+        ,{
+            "path" : "pages/Querys/Querys",
+            "style" : {
+				"navigationBarTitleText": "疑难解答"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail1/OrderDetail1",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail2/OrderDetail2",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail3/OrderDetail3",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/demo/demo",
+            "style" : {}
+        }
+        // ,{
+        //     "path" : "pages/Login_one/Login_one",
+        //     "style" : {}
+        // }
+        ,{
+            "path" : "pages/Login_two/Login_two",
+            "style" : {
+				"navigationBarTitleText": "登陆信息"
+			}
+        }
+        ,{
+            "path" : "pages/Login_three/Login_three",
+            "style" : {
+				"navigationBarTitleText": "登陆信息"
+			}
+        }
+        ,{
+            "path" : "pages/Search_airport/Search_airport",
+            "style" : {
+				"navigationBarTitleText": "选择境内内机场"
+			}
+        }
+        ,{
+            "path" : "pages/Search_overseas_airport/Search_overseas_airport",
+            "style" : {
+				"navigationBarTitleText": "选择境外机场"
+			}
+        }
+        ,{
+            "path" : "pages/Search_railway/Search_railway",
+            "style" : {
+				"navigationBarTitleText": "选择高铁"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail5/OrderDetail5",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail6/OrderDetail6",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail7/OrderDetail7",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail8/OrderDetail8",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/OrderDetail9/OrderDetail9",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/Perfect_user/Perfect_user",
+            "style" : {
+				"navigationBarTitleText": "完善个人信息"
+			}
+        }
+        ,{
+            "path" : "pages/ParkCar/ParkCar",
+            "style" : {
+				"navigationBarTitleText": "机场附近停车"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "white",
+		"navigationStyle": "custom"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "/pages/OrderDetail1/OrderDetail1", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

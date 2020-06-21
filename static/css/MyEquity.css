@@ -1,0 +1,151 @@
+.V-warpper {
+	height: 180upx;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30upx;
+}
+
+.VW-left {
+	width: 14upx;
+	height: 100%;
+	border-top-left-radius: 14upx;
+	border-bottom-left-radius: 14upx;
+	background-color: #fff;
+	background-color: #3d98ff;
+}
+
+.VM-center {
+	width: 356upx;
+	height: 100%;
+	border-right: 1px dashed #85c3ff;
+	position: relative;
+}
+
+.VM-right {
+	width: 164upx;
+	height: 100%;
+	position: relative;
+}
+
+.VM-main {
+	width: 520upx;
+	box-sizing: border-box;
+	height: 100%;
+	border: 1px solid #C0C0C0;
+	border-left: none;
+	display: flex;
+	flex-direction: row;
+}
+
+/* 凹角 */
+.VM-top-right, .VM-top-left, .VM-bottom-left, .VM-bottom-right {
+	position: absolute;
+	background-color: #fff;
+	width: 10upx;
+	height: 10upx;
+	z-index: 1;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+}
+
+.VM-top-right {
+	top: -1px;
+	right: -1px;
+	border-bottom: 1px solid #C0C0C0;
+	border-left: 1px solid #C0C0C0;
+	border-radius: 0 0 0 10upx
+}
+
+.VM-top-left {
+	top: -1px;
+	left: -1px;
+	border-bottom: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	border-radius: 0 0 10upx 0;
+}
+
+.VM-bottom-left {
+	bottom: -1px;
+	left: -1px;
+	border-top: 1px solid #C0C0C0;
+	border-right: 1px solid #C0C0C0;
+	border-radius: 0 10upx 0 0;
+}
+
+.VM-bottom-right {
+	bottom: -1px;
+	right: -1px;
+	border-top: 1px solid #C0C0C0;
+	border-left: 1px solid #C0C0C0;
+	border-radius: 10upx 0 0 0;
+}
+
+.VM-text {
+	height: 110upx;
+	position: absolute;
+	left: 36upx;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.VM-title {
+	height: 35upx;
+	font-size: 30upx;
+}
+
+.VM-desc {
+	height: 25upx;
+	font-size: 20upx;
+	color: #C0C0C0;
+}
+
+.VM-type {
+	height: 50upx;
+	position: relative;
+}
+
+.VMT-warpper {
+	height: 30upx;
+	width: 120upx;
+	border: 1px solid #afcddb;
+	border-radius: 5upx;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	line-height: 30upx;
+	font-size: 20upx;
+	color: #85c3ff;
+}
+
+.OtherBgc {
+	background-color: #ff6446;	
+}
+
+.OtherColor {
+	color: #ff6446;	
+}
+
+.VMR-main {
+	height: 110upx;
+	width: 120upx;
+	color: #85c3ff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.VMRM-title {
+	height: 35upx;
+	font-size: 25upx;
+}
+
+.VMRM-num {
+	height: 75upx;
+	line-height: 75upx;
+	font-size: 60upx;
+	font-style: italic;
+	font-weight: bold;
+}
